@@ -1,4 +1,4 @@
-(function() {
+(function(window) {
   /**
    * @return {undefined}
    */
@@ -7145,5 +7145,5 @@
     }
     return parseString(xml);
   });
-})();
+})(global);
 
