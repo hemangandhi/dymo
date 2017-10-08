@@ -1,3 +1,3 @@
-require('./index.js');
+const dymo = require('./index.js');
 
-console.log(dymo.label.framework.getPrinters());
+console.log(dymo.printers());

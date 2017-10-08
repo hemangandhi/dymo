@@ -1,3 +1,9 @@
+module.exports = {
+    setTimeout: setTimeout,
+    localStorage: {},
+    JSON: JSON
+};
+
 (function(window) {
   /**
    * @return {undefined}
@@ -7145,5 +7151,5 @@
     }
     return parseString(xml);
   });
-})((typeof window == 'undefined' || !window) ? global : window);
+})((typeof window == 'undefined' || !window) ? module.exports : window);
 
