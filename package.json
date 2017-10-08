@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BuildingIntelligence/dymo.git"
+    "url": "git+https://github.com/hemangandhi/dymo.git"
   },
   "keywords": [
     "dymo",
     "labelwriter",
     "printer"
   ],
-  "author": "Travis Sinnott <travis@buildingintelligence.com>",
+  "author": "Heman Gandhi <hemangandhi@gmail.com>",
   "contributors": [],
   "license": "GPL-2.0",
   "bugs": {
