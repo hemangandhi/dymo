@@ -1,7 +1,8 @@
 module.exports = {
     setTimeout: setTimeout,
     localStorage: {},
-    JSON: JSON
+    JSON: JSON,
+    console: console
 };
 
 (function(window) {
@@ -4619,11 +4620,9 @@ module.exports = {
    * @return {undefined}
    */
   function log(fmt) {
-    if (window.dymo.label.framework.trace) {
-      if (window.console) {
-        if (window.console.log) {
-          console.log(fmt);
-        }
+    if (window.console) {
+      if (window.console.log) {
+         console.log(fmt);
       }
     }
   }
