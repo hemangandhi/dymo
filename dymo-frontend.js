@@ -2,7 +2,10 @@ module.exports = {
     setTimeout: setTimeout,
     localStorage: {},
     JSON: JSON,
-    console: console
+    console: console,
+    navigator: {
+        platform: "Mac"
+    }
 };
 
 (function(window) {
